@@ -1,0 +1,7 @@
+{
+  "name": "Simple Note Organizer",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
