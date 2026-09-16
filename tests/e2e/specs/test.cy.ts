@@ -1,6 +1,7 @@
-describe('My First Test', () => {
+describe('Notes Organizer', () => {
   it('Visits the app root url', () => {
     cy.visit('/')
-    cy.contains('#container', 'Ready to create an app?')
+    cy.contains('Simple Notes Organizer')
+    cy.contains('No notes yet')
   })
 })
